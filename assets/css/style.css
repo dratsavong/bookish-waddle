@@ -1,0 +1,104 @@
+header {
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
+    justify-content: flex-start;
+    padding: 2%;
+}
+
+.high-scores {
+    float: left;
+}
+
+.timer {
+    float: right
+}
+
+main {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0.7rem outset rgb(242, 204, 210);
+    outline: 0.7rem solid rgb(195, 235, 188);
+    box-shadow: 0 0 0 2rem rgb(151, 210, 229);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 3rem;
+    padding: 8rem;
+    outline-offset: 0.7rem;
+    background-color: rgb(255, 241, 221);
+}
+
+h1 {
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    padding-inline: 10% 10%;
+}
+
+.start-button {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(221, 236, 251);
+    padding-left: 3%;
+    padding: 12px 28px;
+    border: 2px solid gray;
+    width: 150px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.choice-btn {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid gray;
+    margin-top: 12px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#answerResponse {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    padding: 3%;
+
+}
+
+#next-btn {
+    float: right;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    background-color: rgb(221, 236, 251);
+    padding-left: 3%;
+    padding: 10px 25px;
+    border: 2px solid gray;
+    width: 150px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
